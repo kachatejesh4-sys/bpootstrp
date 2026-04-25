@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>BS forms </title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="h1 text-center text-white bg-primary">
+        BootStrap Form
+    </div>
+
+    <div class="container">
+        <form>
+            <!--input box -->
+            <div>
+                <label class="form-label">Canidate Name</label>
+                <input type="text" class="form-control">
+            </div>
+            <!--input box -->
+            <div>
+                <label class="form-label">Canidate Last Name</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div>
+                <label for="password" class="form-label">Passowrd</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+
+            <!--checkbox or Radio button-->
+            <div>
+                <label class="form-label">Gender</label>
+
+                <div class="ms-3 form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="male" name="gender">
+                    <label for="male" class="form-check-label">Male</label>
+                </div>
+                
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="gender" id="female">
+                    <label for="female" class="form-check-label">Female</label>
+                </div>
+
+            </div>
+
+            <div>
+                <label for="" class="form-label">Languages</label>
+
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-input-check">
+                    <lable class="form-check-label">Tamil</lable>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-input-check">
+                    <lable class="form-check-label">English</lable>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-input-check">
+                    <lable class="form-check-label">Malayalam</lable>
+                </div>
+            </div>
+
+
+
+
+
+            <div>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+            </div>
+
+    </div>
+    </form>
+
+    </div>
+</body>
+
+</html>
