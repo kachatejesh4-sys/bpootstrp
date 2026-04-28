@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title> BScolors </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </head>
+    <body>
+
+        <h1>tejesh</h1>
+        <div class="container">
+            <div class="h1 bg-danger">welcome HTML</div>
+            <div class="h2 bg-dark text-white">welcome CSS</div>
+            <div class="h3 bg-info">welcome BOOTSPARP</div>
+            <div class="h4 bg-success">welcome JAVASCRIPT</div>
+            <div class="h4 bg-secondary">welcome DATASTRUCTURE</div>
+            <div class="h5 bg-light">welcome WEBTECHNOLOGY</div>
+            <div class="h5 bg-primary">welcome IOT</div>
+            <div class="h6 bg-warning">welcome DATAMINING</div>
+        </div>
+        
+    </body>
+</html>
+
+
+
+
+
+
+<html>
+    <head>
+        <title> BScolors </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="h1 text-danger">welcome HTML</div>
+            <div class="h2 text-dark ">welcome CSS</div>
+            <div class="h3 text-info">welcome BOOTSPARP</div>
+            <div class="h4 text-success">welcome JAVASCRIPT</div>
+            <div class="h4 text-secondary">welcome DATASTRUCTURE</div>
+            <div class="h5 text-light bg-danger">welcome WEBTECHNOLOGY</div>
+            <div class="h5 text-primary">welcome IOT</div>
+            <div class="h6 text-warning">welcome DATAMINING</div>
+        </div>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+<html>
+    <head>
+        <title> BScolors </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </head>
+    <body>
+        <div class="container bg-danger">
+            <div class="h1">chennai super kings</div>
+        </div>
+        <div>
+            <div class="container-fluid bg-success">
+            <div class="h1">Royal Challengers Bengaluru</div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+<html>
+    <head>
+        <title> BScolors </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </head>
+    
+    <body>
+        
+        <div class="container bg-success text-danger text-center ">
+            <h1>FONT TYPE</h1>
+        </div>
+
+        <div class="container">
+            <div class="fw-normal">Cristiano Ronaldo</div>
+            <div class="fst-italic">Cristiano Ronaldo</div>
+            <div class="fw-bold">Cristiano Ronaldo</div>
+            <div class="fw-light">Cristiano Ronaldo</div>    
+        </div>
+
+        <div class="contianer bg-danger text-success text-center">
+            <h1>TEXT EDIT</h1>
+        </div>
+
+        <div class="contianer">
+            <div class="text-uppercase">Lionel Messi</div>
+            <div class="text-lowercase">Lionel Messi</div>
+            <div class="test-capitalize">Lionel Messi</div>
+        </div>
+
+        <div class="contianer bg-primary text-dark text-center">
+            <h1>FONT SIZE</h1>
+        </div>
+
+        <div class="comtainer">
+            <div class="fs-0">Neymar</div>
+            <div class="fs-1">Neymar</div>
+            <div class="fs-2">Neymar</div>
+            <div class="fs-3">Neymar</div>
+            <div class="fs-4">Neymar</div>
+            <div class="fs-5">Neymar</div>
+            <div class="fs-6">Neymar</div>
+        </div>
+
+        <div class="contianer bg-warning text-peimary text-center">
+            <h1>HEIGHT</h1>
+        </div>
+
+        <div class="contianer">
+            <div class="1h-1 bg-warning">Paul Pogba</div>
+            <div class="1h-sm bg-primary">Paul Pogba</div>
+            <div class="1h-base bg-danger">Paul Pogba</div>
+            <div class="1h-1g bg-success">Paul Pogba</div>
+        </div>
+
+        <div class="contianer bg-primary text-success text-center">
+            <h1>TEXT ELEMENT</h1>
+        </div>
+
+        <div class="container">
+            <div class="text-sart text-danger">Benjamin Šeško</div>
+            <div class="text-center text-info">Benjamin Šeško</div>
+            <div class="text-end text-secondary">Benjamin Šeško</div>
+        </div>
+    </body>
+</html>

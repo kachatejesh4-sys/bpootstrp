@@ -1,0 +1,323 @@
+What is HTML?
+=============
+
+    🔹 HTML (HyperText Markup Language) is the standard language used to create web pages.
+    🔹 It tells the browser:
+
+         " What content to show
+           How the content is structured "
+           
+    🔹 HTML is not a programming language
+    🔹 It is a markup language
+    🔹 It uses tags like <h1>, <p>, <a>
+
+
+HTML tags
+==========
+    🔹 An HTML tag is a keyword enclosed in angle brackets.
+    🔹 It uses tags like <h1>, <p>, <a>
+    🔹 It is two categories
+
+            Paired Tags    - With closing tags    (   <p>...</p>)
+            Void Elements  - without closing tags (<img/> ,<br/> )
+
+
+
+HTML Elements 
+=============
+    🔹 An HTML element consists of:
+    🔹 Opening Tag + Content + Closing Tag
+
+            <p>Hello World</p>
+
+HTML Element Categories
+=======================
+
+     There are Four types of Categories
+
+        1️⃣  Block-Level Elements
+        2️⃣  Inline Elements
+        3️⃣  Semantic Elements
+        4️⃣  void Elements  (or) Empty (Self-Closing) Elements
+
+
+
+
+
+Document Object Model
+=====================
+    DOM (Document Object Model) is a programming interface for HTML and XML documents.
+    It represents a web page as a tree-like structure of objects, where:
+
+        👉  Each HTML element becomes a node
+        👉   JavaScript can access, modify, add, or delete these nodes
+        👉  The browser creates the DOM when the page loads
+
+               Document
+               │
+               └── html
+                  │
+                  ├── head
+                  │   └── title
+                  │       └── "My Page"
+                  │
+                  └── body
+                     ├── h1
+                     │   └── "Hello"
+                     │
+                     └── p
+                           └── "Welcome to DOM"
+
+
+
+
+ ## Simple DOM
+================
+   ```
+   <!DOCTYPE html>
+   <html>
+      <head>
+         <title> Demo Website </title>
+      </head>
+      <body>
+         <p> Welcome To Website </p>
+      </body>
+   </html> 
+   ``` 
+
+
+How it will display
+===================
+<!DOCTYPE html>
+   <html>
+      <head>
+         <title>Demo Website</title>
+      </head>
+   <body>
+      <p>Welcome To Website</p>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+HTML Element Categories
+=======================
+
+     There are Four types of Categories
+
+        1️⃣  Block-Level Elements
+        2️⃣  Inline Elements
+        3️⃣  Semantic Elements
+        4️⃣  void Elements  (or) Empty (Self-Closing) Elements
+
+
+
+1️⃣ Block-Level Elements
+------------------------
+
+    🔹 Block elements take the full width of the page and start on a new line.
+
+        ✅ Examples:
+
+                <div>
+                <p>
+                <h1> – <h6>
+                <ul>
+                <ol>
+                <li>
+                <table>
+                <section>
+                <article>
+                <header>
+                <footer>
+
+2️⃣ Inline Elements
+-------------------
+    🔹 Inline elements do not start on a new line and take only required width.
+
+            ✅ Examples:
+
+                    <a>
+                    <img>
+                    <span>
+                    <b>
+                    <strong>
+                    <i>
+                    <em>
+                    <mark>
+                    <sup>
+                    <sub>
+
+3️⃣ Semantic Elements
+---------------------
+    🔹 Elements that describe meaning.
+
+        ✅ Example
+            <header>
+            <nav>
+            <section>
+            <article>
+            <footer>
+            <main>
+
+
+
+  4️⃣ void Elements 
+  ------------------
+
+    🔹 Do not have closing tags.
+
+        ✅ Example
+                <br/>
+                <hr/>
+                <img/>
+                <input/>
+                <meta/>
+                <link/>
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Elements Categories List
+=============================
+
+    📌 Basic Structure Elements 
+    ----------------------------
+        These define the overall layout of a webpage.
+
+            🔹 <html>	Root of HTML document
+            🔹 <head>	Metadata (title, links, scripts)
+            🔹 <title>	Page title (shown in browser tab)
+            🔹 <body>	Visible content
+            
+
+    📌 Text Elements  
+    -----------------
+        Used to structure text content.
+
+            🔹 <h1> to <h6>	    Headings
+            🔹 <p>	            Paragraph
+            🔹 <br>	            Line break
+            🔹 <hr>	            Horizontal line
+            🔹 <div>            Division
+            🔹 <blockquote>     block + quote
+            🔹 <pre>            Preformatted text.
+
+     📌 Inline Text Elements
+    ------------------------- 
+            <span>    - span
+            <a>       - anchor
+            <small>   - small text
+            <b>       – Bold
+            <strong>  – Important text
+            <i>       – Italic    
+            <em>      – Emphasized text
+            <u>       – Underline
+            <mark>    – Highlight
+            <sup>     – Superscript
+            <sub>     – Subscript
+
+
+    📌 Links & Media  
+    ----------------
+        Used to embed media.
+
+            🔹 <a>	    Hyperlink
+            🔹 <img>	Image
+            🔹 <audio>	Audio
+            🔹 <video>	Video
+
+    📌 Lists
+    ---------
+        Used to create lists.
+
+            🔹 <ul>	Unordered list
+            🔹 <ol>	Ordered list
+            🔹 <dl>	Description list
+            🔹 <li> (list item)
+            🔹 <dl> (description list)
+            🔹 <dt> (term)
+            🔹 <dd> (description)
+        
+
+    📌 Table Elements
+    -------------------
+
+        Used to create tables.
+
+            🔹 <table>	Table
+            🔹 <tr>	    Table row
+            🔹 <th>	    Table header
+            🔹 <td>	    Table data
+            🔹 <thead>  Table head
+            🔹 <tbody>  Table body
+            🔹 <tfoot>  Table foot
+
+    📌 Form Elements (Very Important 🔥)
+    --------------------------------------
+
+        Used to collect user input.
+
+            🔹 <form>	    Form container
+            🔹 <input>	    Input field
+            🔹 <textarea>	Multi-line text
+            🔹 <select>	    Dropdown
+            🔹 <button>	    Button
+            🔹 <label>	    Label for input
+    
+     📌 Metadata Elements
+    ----------------------
+        Provide information about the document (not visible on page).
+            🔹 <meta>
+            🔹 <title>
+            🔹 <base>
+            🔹 <style>
+            🔹 <script>
+            🔹 <link>
+    
+    📌 Semantic Elements (HTML5)
+    ----------------------------
+        Clearly describe their meaning.
+
+            🔹 <header>
+            🔹 <nav>
+            🔹 <section>
+            🔹 <article>
+            🔹 <aside>
+            🔹 <footer>
+            🔹 <main>
+            🔹 <figure>
+    
+    
+  📌 Non-Semmantic Elements 
+  --------------------------
+        ✅ Example
+
+                <div>  - Divide
+                <span> - span
+                <b>    - bold
+                <i>    - italic
+                <u>    - underline
+
+
+
+
