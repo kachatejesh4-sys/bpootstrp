@@ -1,7 +1,7 @@
 /* RESET */
 * {
-    margin: 5;
-    padding: 5;
+    margin: 3;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
@@ -17,13 +17,14 @@ body {
     align-items: center;
     justify-content: space-between;
     background: #222;
-    padding: 15px 50px;
+    padding: 15px 40px;
     color: #fff;
 }
 
 .navbar .logo {
     font-size: 22px;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 .navbar img {
