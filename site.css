@@ -17,12 +17,12 @@ body {
     align-items: center;
     justify-content: space-between;
     background: #222;
-    padding: 15px 40px;
+    padding: 20px 40px;
     color: #fff;
 }
 
 .navbar .logo {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     margin-right: 5px;
 }
